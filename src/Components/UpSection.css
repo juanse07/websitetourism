@@ -1,0 +1,134 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  max-height: 77vh;
+  position: absolute;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: -1;
+}
+
+.up-container {
+  /* background: url("/src/public1/images/dunion.jpg") center/cover no-repeat; */
+  height: 77vh;
+  width: 100%;
+  /* margin-top: px; */
+  /* margin-bottom: 200px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0);
+  object-fit: cover;
+  overflow: auto;
+}
+.up-container > h1 {
+  color: #ffffff7f;
+  font-size: 70px;
+
+  margin-left: 70px;
+}
+.up-container > p {
+  color: #f2f2f2;
+  font-size: 32px;
+  margin-top: 8px;
+}
+.up-btns {
+  margin-top: 32px;
+}
+.up-btns .btn {
+  margin: 6px;
+}
+.fa-play-circle {
+  margin-left: 15px;
+}
+@media screen and (max-width: 960px) {
+  .up-container {
+    height: auto;
+    max-width: 100%;
+
+    /* height: 77vh; */
+    /* width: 100%; */
+    /* margin-top: -200px; */
+    /* margin-bottom: 80px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0);
+    object-fit: scale-down;
+  }
+  .up-container > h1 {
+    font-size: 35px;
+    /* position: fixed; */
+
+    margin-top: -220px;
+    margin-left: 15px;
+  }
+  .up-container > p {
+    /* position: fixed; */
+
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  .up-btns {
+    margin-top: 8px;
+  }
+  .up-btns .btn {
+    margin: 6px;
+  }
+  .fa-play-circle {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .video {
+    object-fit: cover;
+    width: 100%;
+    /* max-height: 60vh; */
+    height: 54vh;
+
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: -1;
+  }
+  .up-container {
+    height: 41vh;
+    width: 98%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+
+    /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0);
+    object-fit: scale-down; */
+  }
+  .up-container > h1 {
+    font-size: 35px;
+    /* position: fixed; */
+    margin: 0 auto;
+
+    margin-top: 50px;
+    /* margin-left: 15px; */
+  }
+  .up-container > p {
+    /* position: fixed; */
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top: 20px;
+    /* margin-top: 50px; */
+    /* margin-left: 50px; */
+  }
+  .up-btns {
+    margin-top: 40px;
+  }
+  .up-btns .btn {
+    margin: 10px;
+  }
+  .fa-play-circle {
+    margin-left: 15px;
+  }
+}
