@@ -7,9 +7,9 @@ function UpSection() {
    
     return (
         <div className= 'up-container'>
-             {/* <video src='videos/rain2.mp4' autoPlay loop muted/> */}
+             {/* <video src='videos/rain2.mp4' autoPlay loop muted playsinline/> */}
              <video src='videos/Bokeh Lights (1).mp4' autoPlay loop muted/>
-           <h1>Explore Denver at your own Rythm</h1>
+           <h1>Explore Denver at your own Pace</h1>
             <p>Best Tours around</p>
           
            

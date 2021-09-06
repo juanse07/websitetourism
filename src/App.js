@@ -7,6 +7,7 @@ import Products from './Components/Pages/Products';
 import Services from './Components/Pages/Services';
 import SignUp from './Components/Pages/SignUp';
 import Survey from './Components/Pages/Survey';
+import UpSection from './Components/UpSection';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
   
      
     </>
+   
    
   );
 }
